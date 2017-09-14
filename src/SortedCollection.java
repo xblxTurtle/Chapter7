@@ -1,11 +1,12 @@
 import java.util.Arrays;
 
+
 public class SortedCollection {
 private int[] array;
 
 public SortedCollection()
 {
-	
+
 }
 public void add(int item)
 {
@@ -69,6 +70,7 @@ public int getSize()
 }
 public String toString()
 {
+	
 	StringBuilder sb = new StringBuilder();
 	sb.append("Contents of the collection: ");
 	for (int item:array)
